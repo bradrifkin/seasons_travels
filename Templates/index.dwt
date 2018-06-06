@@ -1,0 +1,108 @@
+<!doctype html>
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+    <link href="../_css/main.css" rel="stylesheet" type="text/css" media="screen">
+	
+	
+	<!-- TemplateBeginEditable name="doctitle" -->
+    
+    
+    <title>Seasons Travels</title>
+    
+    
+    <!-- TemplateEndEditable -->
+    
+    
+    <!-- TemplateBeginEditable name="head" -->
+    
+    
+    <!-- TemplateEndEditable -->
+    
+</head>    
+
+<body>
+
+<div id="wrapper">
+
+
+<div id="header">
+	<div id="logo">	
+	</div>
+    
+    <div id="topnav">
+        <ul>
+        	<li><a href="../index.html">Home</a></li>
+            <img src="../homepage-assets/navsun.png">
+            <li><a href="../about.html">About</a></li>
+            <img src="../homepage-assets/navsun.png">
+            <li><a href="../specials.html">Specials</a></li>
+            <img src="../homepage-assets/navsun.png">
+            <li><a href="../faq.html">FAQ</a></li>
+            <img src="../homepage-assets/navsun.png">
+            <li><a href="../contact.html">Contact</a></li>
+        </ul>
+    </div>
+</div>
+    
+    
+    
+<!-- TemplateBeginEditable name="content" -->
+      
+    
+<div id="banner">
+  <img src="../images/road_homepage2.jpg" width="835" height="273" alt=""/>
+</div>
+        
+<div id="content">      
+        
+        <div id="fall">
+          <img src="../images/fall_homepage_button.jpg">
+          <p>Discover the stunning views from around the world during autumn, one of the most colorful seasons</p>
+        </div>
+        
+ 	    <div id="winter">
+        	<img src="../images/winter_homepage_button.jpg">
+            <p>We can help you find that perfect winter wonderland for the best skiing, hiking, and other scenic expeditions</p>
+        </div>
+        
+        <div id="spring">
+        	<img src="../images/spring_homepage_button.jpg">
+            <p>As the flowers start to bloom in the spring, we have the places you need to check out to enjoy this beautiful season</p>
+        </div>	
+            
+        <div id="summer">    
+            <img src="../images/summer_homepage_button.jpg">
+            <p>Learn about the hottest summer cities and the most beautiful, and secluded, beaches in the world</p>
+ 		</div>
+     
+     
+<!-- TemplateEndEditable -->     
+           
+  </div>
+    
+    <div id="footer">
+    	<div id="twitter">
+        	<a href="http://www.twitter.com"><img src="../homepage-assets/twitter.jpg"></a>
+        </div>
+        <div id="facebook">
+        	<a href="http://www.facebook.com"><img src="../homepage-assets/facebook.jpg"></a>
+        </div>    
+        <div id="googleplus">
+        	<a href="http://plus.google.com"><img src="../homepage-assets/googleplus.jpg"></a>
+        </div>	
+        <div id="youtube">    
+            <a href="http://www.youtube.com"><img src="../homepage-assets/youtube.jpg"></a>
+        </div>	
+        <div id="rss">    
+            <a href="http://www.rss.com"><img src="../homepage-assets/rss.jpg"></a>
+ 		</div>  	  
+      <p>&copy; 2015 Seasons Travels, Inc.</p>
+    </div>
+    
+</div>
+</body>
+
+</html>

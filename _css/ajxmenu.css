@@ -1,0 +1,71 @@
+@charset "utf-8";
+/*
+ Ajatix Advanced CSS Drop Down Menu Light
+ Copyright (C) 2009-2014 Ajatix. All rights reserved.
+ http://www.ajatix.com
+*/
+.AJXCSSMenuFHbCSOC {
+	position: relative;
+	z-index: 100;
+	line-height: 0;
+	background-position: top right;
+	text-align: right;
+	margin-top: -59px;
+	width: 545px;
+	margin-right: 15px;
+	padding-left: 0px;
+	margin-left: 6px;
+	float: right;
+}
+.AJXCSSMenuFHbCSOC ul {
+	position: relative;
+	display: inline-block;
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+	list-style-type: none;
+}
+*+html .AJXCSSMenuFHbCSOC ul {
+	display: inline;
+}
+.AJXCSSMenuFHbCSOC li {
+	float: left;
+	margin: 0;
+}
+.AJXCSSMenuFHbCSOC li:hover,.AJXCSSMenuFHbCSOC li.ajxover {position:relative;}
+.AJXCSSMenuFHbCSOC a,.AJXCSSMenuFHbCSOC_n a {display:block;overflow:hidden;}
+.AJXCSSMenuFHbCSOC>ul>li>a {
+	width: auto;
+	height: 41px;
+	white-space: nowrap;
+	padding: 0 12px 0 12px;
+	font-weight: bold;
+	font-size: 17px;
+	font-family: "Maiandra GD";
+	line-height: 41px;
+	text-decoration: none;
+	text-transform: none;
+	text-align: center;
+	border: 0;
+	color: #cae3f8;
+}
+.AJXCSSMenuFHbCSOC>ul>li:hover>a,.AJXCSSMenuFHbCSOC>ul>li.ajxover>a {
+	color: #ffffff;
+	background: #5597d1 url(ajxmenu_files/top.gif) bottom right;
+}
+.AJXCSSMenuFHbCSOC>ul>li>a.ajxsub {
+	padding-top: 0;
+	padding-right: 12px;
+	padding-left: 12px;
+	padding-bottom: 0;
+}
+.AJXCSSMenuFHbCSOC>ul>li:hover>a.ajxsub,.AJXCSSMenuFHbCSOC>ul>li.ajxover>a.ajxsub {
+	position: static;
+}
+.AJXCSSMenuFHbCSOC li ul {position:absolute;left:-9999px;top:-9999px;width:200px;height:auto;display:inline-block;vertical-align:top;font-size:0;float:none;padding:0px 0px 0px 0px;border:1px solid #ffffff;background:#5597d1;}
+.AJXCSSMenuFHbCSOC li:hover > ul,.AJXCSSMenuFHbCSOC li.ajxover > ul {left:-1px;top:41px;}
+.AJXCSSMenuFHbCSOC li li {width:200px;margin:0;}
+.AJXCSSMenuFHbCSOC li li a {width:176px;height:auto;white-space:normal;padding:9px 12px 9px 12px;font:12px Arial,Helvetica,sans-serif;line-height:12px;text-decoration:none;text-transform:none;text-align:left;border:0;color:#ffffff;background:none;}
+.AJXCSSMenuFHbCSOC li li:hover>a,.AJXCSSMenuFHbCSOC li li.ajxover>a {background:#2d6fa9;}
+.AJXCSSMenuFHbCSOC ul .navsun {
+	margin-top: 16px;
+}

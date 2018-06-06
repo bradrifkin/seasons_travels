@@ -1,0 +1,170 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Seasons Travels | Monthly Specials</title>
+<link href="_css/main.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.accordion.min.js" type="text/javascript"></script>
+<script src="_js/jquery.hoverpulse.js" type="text/javascript"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet" href="_css/ajxmenu.css" type="text/css">
+</head>
+
+<body>
+
+<div id="wrapper">
+
+
+<header id="header_large">
+  <div class="headerContainer">
+
+    <div id="logo">
+      <a href="index.html"><img src="images/logo3.png"></a>
+    </div>
+      
+      
+      <div class="AJXCSSMenuFHbCSOC">
+        <!-- AJXFILE:_css/ajxmenu.css -->
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="navsun"><img src="images/navsun.png"></li>
+          <li><a href="about.html">About</a></li>
+          <li class="navsun"><img src="images/navsun.png"></li>
+          <li><a class="ajxsub" href="#">Seasons</a>
+            <ul>
+              <li><a href="fall.html">Fall</a></li>
+              <li><a href="winter.html">Winter</a></li>
+              <li><a href="spring.html">Spring</a></li>
+              <li><a href="summer.html">Summer</a></li>
+            </ul>
+          </li>
+          <li class="navsun"><img src="images/navsun.png"></li>
+          <li><a href="specials.html">Specials</a></li>
+          <li class="navsun"><img src="images/navsun.png"></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li class="navsun"><img src="images/navsun.png"></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+  </div>
+</header>
+
+
+<header id="header_small">
+  <div class="headerContainer">
+        <div id="logo">
+      <a href="index.html"><img src="images/logo3.png"></a>
+    </div>
+    <div id="hamburger"><img src="images/hamburger_invert.png"></div>
+  </div>
+</header>
+
+<div id="mobile_menu">
+  <ul>
+    <li><a href="about.html"><i class="fa fa-globe" aria-hidden="true"></i><br>About</a></li>
+    <li><a href="specials.html"><i class="fa fa-plane" aria-hidden="true"></i><br>Specials</a></li>
+    <li><a href="faq.html"><i class="fa fa-question-circle" aria-hidden="true"></i><br>FAQ</a></li>
+    <li><a href="contact.html"><i class="fa fa-envelope" aria-hidden="true"></i><br>Contact</a></li>
+  </ul>
+</div> 
+
+<div id="specialscontainer">
+
+<div id="specialsheader">
+	<h1>Our Monthly Specials</h1>
+</div><!--END specials header-->
+
+<div id="specials">
+  <figure class="specialThumbs topleft"><a href="fall.html"><img src="images/neuschwanstein.jpg" alt=""><figcaption>Find out more about the Neuschwanstein Castle and all of our best fall destinations</figcaption></a></figure>
+  <figure class="specialThumbs topright"><a href="winter.html"><img src="images/tahoe.jpg" alt=""><figcaption>Find out more about Lake Tahoe and all of our best winter destinations</figcaption></a></figure>
+  <figure class="specialThumbs bottomleft"><a href="spring.html"><img src="images/paris.jpg" alt=""><figcaption>Find out more about Paris and all of our best spring destinations</figcaption></a></figure>
+  <figure class="specialThumbs bottomright"><a href="summer.html"><img src="images/sf.jpg" alt=""><figcaption>Find out more about San Francisco and all of our best summer destinations</figcaption></a></figure>
+</div>
+
+
+<!-- <div id="thumbs">
+	<div class="thumb1"><img src="images/neuschwanstein.jpg" width="100%" height="100%" data-link="fall.html"  /></div>
+	<div class="thumb2"><img src="images/tahoe.jpg" width="100%" height="100%" data-link="winter.html"  /></div>
+    <div class="thumb3"><img src="images/paris.jpg" width="100%" height="100%" data-link="spring.html"  /></div>
+    <div class="thumb4"><img src="images/sf.jpg" width="100%" height="100%" data-link="summer.html"  /></div>
+</div> -->
+
+
+
+
+
+<form action="index.html" method="POST" id="form">
+  <h3>Request More Information</h3>
+  <label for="firstName">First Name:</label>  
+  <input type="text" name="firstName" id="firstName"><br>
+
+  <label for="lastName">Last Name:</label>  
+  <input type="text" name="lastName" id="lastName"><br>
+
+  <label for="email">Email:</label>
+  <input type="email" name="email" id="email"><br>
+
+  <label for="phone">Phone:</label>
+  <input type="tel" name="phone" id="phone"><br>
+
+  <label for="subject">Subject:</label>
+  <select name="subject" id="subject">
+    <option value="New">New Reservation</option>
+    <option value="Existing">Existing Reservation</option>
+    <option value="Technical">Technical Issue</option>
+  </select><br>
+
+  <label for="destination">Destination:</label>
+  <input type="text" name="destination" id="destination"><br>
+
+  <label for="subscribe">Subscribe to Email List:</label>
+  <input type="radio" name="subscribe" value="yes" checked>Yes
+  <input type="radio" name="subscribe" value="no">No<br>
+
+  <label for="comments"></label>
+  <textarea name="comments" id="comments" placeholder="Enter comments here..."></textarea>
+
+  <input type="submit" name="submit" id="submit" value="Submit">
+  <input type="reset" name="reset" id="reset" value="Reset">
+</form>
+
+
+
+</div><!--END SPECIALSCONTAINER-->
+
+
+
+
+
+
+
+
+<div id="footer">
+    
+    	<table width="150" border="0" align="center">
+  <tbody>
+    <tr>
+      <td height="25"><a href="http://www.twitter.com"><img src="images/twitter.jpg" width="20" height="20" alt=""/></a></td>
+      <td height="25"><a href="http://www.facebook.com"><img src="images/facebook.jpg" width="20" height="20" alt=""/></a></td>
+      <td height="25"><a href="http://plus.google.com"><img src="images/googleplus.jpg" width="20" height="20" alt=""/></a></td>
+      <td height="25"><a href="http://www.youtube.com"><img src="images/youtube.jpg" width="20" height="20" alt=""/></a></td>
+      <td height="25"><a href="http://www.rss.com"><img src="images/rss.jpg" width="20" height="20" alt=""/></a></td>
+    </tr>
+  </tbody>
+</table> 
+         	  
+      <p>&copy; 2015 Seasons Travels, Inc.</p>
+</div> <!--End footer-->
+
+
+
+</div> <!--End wrapper-->
+
+<script type="text/javascript" src="_js/ext.js"></script>
+<script src="_js/scripts.js"></script>
+
+</body>
+</html>
